@@ -44,22 +44,22 @@ h1, h2, h3 {
 
 .bodyHome {
     border: solid #d085ee;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 100%;
 }
 .bodyAbout_me {
     border: solid #85eaee;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 100%;
 }
 .bodyContact {
     border: solid #85ee8e;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 100%;
 }
 .bodyWork {
     border: solid #eea385;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 100%;
 }
 

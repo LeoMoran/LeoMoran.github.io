@@ -1,0 +1,95 @@
+This file is a check list for changes needed to be implemented onto my website.
+
+1. Make it so that my headshot doesn't grow to be so massive on the index page
+
+2. Prevent the logos on the contact pages from being squeezed when changing the 
+   page size, instead make it consistent like the headshot
+
+3. Make error messages
+
+4. Continue to add documentation for the files
+
+5. Make the navigation bar look nicer
+
+6. Make the links on the contacts page function
+
+7. Have the colors be friendly to those who are color blind (make them consist of Blue and 
+   Red while not having them grouped together)
+
+HomeWork
+- Your Google Doc is at minimum, viewable by other Carleton accounts (Otherwise, I can’t 
+  grade it!)
+
+- Your website’s homepage has a “This website is under construction” message. (if it’s not 
+  a pre-existing personal website)
+
+- Your website has an additional page to showcase your HCI class project. 
+
+- Your HCI project page has a “This project page is under construction” message. 
+
+- There is a way to navigate between your homepage and your HCI project page (URL, navigation 
+  bar, tabs, etc)
+
+- Your explanation of your design choices in the Google Doc  identifies which usability 
+  principles your website adheres to.
+
+- Your description of your accessibility in the Google Doc features identifies where on your 
+  website those features are present.
+
+- Your website implements the following accessibility features, if applicable:
+   - headings used to structure page
+
+   - resizing text to 150-200% works
+
+   - color and contrast chosen well for colorblind-friendliness and overall readability (many 
+     online resources for this)
+
+   - alt text for any images (if applicable to your website. See Exemplary requirements.)
+
+   - correct use of bold vs strong (if applicable to your website. See Exemplary 
+     requirements.)
+
+   - correct use of abbreviations tag (if applicable to your website. See Exemplary 
+     requirements.)
+
+Extra
+Exemplary
+- Your website’s homepage contains your bio. Your bio should contain:
+   - Your name
+
+   - Your year in school
+
+   - Your major(s) & if applicable, minor(s), either intended or declared
+
+   - Any previous work experiences, professional accomplishments, or leadership roles you 
+     want to highlight
+
+   - If you are looking for an internship or job, a description of the kinds of internships 
+     or jobs you are looking for (feel free to talk to Jean if you have questions about this). 
+     If you already have an internship or job (congrats!), a brief description of the 
+     internship or job. If you choose to include this information on your homepage, this 
+     information should be within strong tags.
+
+   - If your bio contains any abbreviations, they should be contained within abbreviation 
+     tags.
+
+- Your website’s homepage contains your headshot, if you don’t want a headshot or if another 
+  image is better suited, an image related to any of the previous work experiences, 
+  professional accomplishments, or leadership roles you highlighted. Your headshot or image 
+  should include alt text.
+
+- Your website’s homepage contains a link to your resume. This can either be an asset on your 
+  website itself (e.g. how my CV is linked on my homepage) or an external link (e.g. Google 
+  drive).
+
+- Your explanation of your design choices in the Google Doc identifies which users your 
+  website prioritizes. Refer to the reading from the Usability Prep, Design Values: 
+  Hard-Coding Liberation? (Section: Make Me Think: Differential Cognitive Load), for examples 
+  of how websites prioritizes different users.
+
+- Your description of your accessibility features in the Google Doc identifies which users 
+  are served by those features.
+
+- [For new websites developed in this class, not pre-existing personal websites] Any unused 
+  elements of the website template are either commented out or a future plan for using those 
+  elements is included.
