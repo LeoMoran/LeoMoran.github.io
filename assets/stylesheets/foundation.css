@@ -1,0 +1,74 @@
+/*How to make a comment*/
+
+head {
+    color: #d085ee;
+}
+
+.topNav {
+    list-style-type: none;
+    padding-left: 0.5%;
+}
+
+.topNav a.home {
+    background-color: #d085ee;
+}
+.topNav a.about_me {
+    background-color: #85eaee;
+}
+.topNav a.contact {
+    background-color: #85ee8e;
+}
+.topNav a.work {
+    background-color: #eea385;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%
+}
+
+.logo {
+    display: block;
+    margin-top: 0.5%;
+    width: 5%;
+    height: 5%
+    
+}
+
+.bodyHome {
+    border: solid #d085ee;
+    border-radius: 7px;
+    font-size: 100%;
+}
+.bodyAbout_me {
+    border: solid #85eaee;
+    border-radius: 7px;
+    font-size: 100%;
+}
+.bodyContact {
+    border: solid #85ee8e;
+    border-radius: 7px;
+    font-size: 100%;
+}
+.bodyWork {
+    border: solid #eea385;
+    border-radius: 7px;
+    font-size: 100%;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 0.5%;
+}
+footer {
+    font-size: 70%;
+    padding-left: 0.5%;
+}
+
