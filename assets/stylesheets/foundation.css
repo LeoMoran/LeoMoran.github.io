@@ -16,14 +16,25 @@ head {
     background-color: #85eaee;
 }
 .topNav a.contact {
-    background-color: #85ee8e;
+    background-color: #eed485;
 }
 .topNav a.work {
     background-color: #eea385;
 }
 
+h1 {
+    font-size: 5vw;
+}
+h2 {
+    font-size: 4vw;
+}
+
 h1, h2, h3 {
     text-align: center;
+}
+
+a {
+    font-size: 2vw;
 }
 
 .portrait {
@@ -35,11 +46,11 @@ h1, h2, h3 {
 }
 
 .logo {
-    display: block;
-    margin-top: 0.5%;
-    width: 5%;
-    height: 5%
-    
+    max-width: 5%;
+    max-height: 5%;
+    width: auto;
+    height: auto;
+    padding-right: 0.5%;
 }
 
 .bodyHome {
@@ -53,7 +64,7 @@ h1, h2, h3 {
     font-size: 100%;
 }
 .bodyContact {
-    border: solid #85ee8e;
+    border: solid #eed485;
     border-radius: 10px;
     font-size: 100%;
 }
@@ -66,9 +77,15 @@ h1, h2, h3 {
 p {
     font-family: "Times New Roman", Times, serif;
     padding-left: 0.5%;
+    font-size: 2vw;
 }
+
+ul {
+    font-size: 2vw;
+}
+
 footer {
-    font-size: 70%;
+    font-size: 1.5vw;
     padding-left: 0.5%;
 }
 
