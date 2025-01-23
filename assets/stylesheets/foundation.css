@@ -71,12 +71,17 @@ a {
     font-size: 100%;
 }
 .bodyContact {
-    border: solid #eed485;
+    border: solid #85b4ee; 
     border-radius: 10px;
     font-size: 100%;
 }
 .bodyWork {
     border: solid #eea385;
+    border-radius: 10px;
+    font-size: 100%;
+}
+.bodyProjects {
+    border: solid #eed485;
     border-radius: 10px;
     font-size: 100%;
 }
