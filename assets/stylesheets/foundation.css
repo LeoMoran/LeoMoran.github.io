@@ -9,6 +9,10 @@ head {
     padding-left: 0.5%;
 }
 
+.topNav a{
+    text-decoration: none;
+}
+
 .topNav a.home {
     background-color: #d085ee;
 }
@@ -16,10 +20,13 @@ head {
     background-color: #85eaee;
 }
 .topNav a.contact {
-    background-color: #eed485;
+    background-color: #85b4ee; 
 }
 .topNav a.work {
     background-color: #eea385;
+}
+.topNav a.projects {
+    background-color: #eed485;
 }
 
 h1 {
