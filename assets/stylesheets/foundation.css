@@ -73,7 +73,7 @@ a {
 }
 
 .bodyHome, .bodyAbout_me, .bodyContact, .bodyContact, .bodyProjects {
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 100%;
 }
 
