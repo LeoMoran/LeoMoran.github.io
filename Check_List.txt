@@ -1,16 +1,22 @@
 This file is a check list for changes needed to be implemented onto my website.
 
-1. Make it so that my headshot doesn't grow to be so massive on the index page
+- Make it so that my headshot doesn't grow to be so massive on the index page
 
-3. Make error messages
+- Make error messages
 
-4. Continue to add documentation for the files
+- Continue to add documentation for the files
 
-5. Make the navigation bar look nicer
+- Make the navigation bar look nicer
 
-6. Make the links on the contacts page function
+- Make the links on the contacts page function
 
-9. Add a "back to the top" link once the navigation bar is out of view
+- Add a "back to the top" link once the navigation bar is out of view
+
+- Move contacts to the bottom of Home page
+
+- Change Resume link so there are two options, one to view the document, and another to download it
+
+- Change the color of the links to look nicer
 
 HomeWork
 

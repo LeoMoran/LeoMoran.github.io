@@ -56,6 +56,10 @@ a {
     padding-right: 0.5%;
 }
 
+.example-selector {
+    box-sizing: content-box;
+}
+
 .bodyHome {
     border: solid #d085ee;
 }
