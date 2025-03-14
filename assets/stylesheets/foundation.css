@@ -52,6 +52,10 @@ a {
     box-sizing: content-box;
 }
 
+body {
+    padding: 10px;
+}
+
 .bodyHome {
     border: solid #d085ee;
 }
