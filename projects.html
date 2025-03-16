@@ -29,66 +29,79 @@
             <a id="main_content">
             <h2>Carleton College Laundry App</h2>
             <p>Made by: Leo Moran, Ezra Barber, Julian Tanguma, Josh Meier</p>
-            
-            <h3>Prototype 1</h3>
-            <p>Through my focus group, along with Julian's interview, I learned about the various functions that our users (Carleton College students within the dormitories) would want from the app. Some examples of what the user wants would consist of using their Carleton email as a means of logging on, using maps as an easier way of selecting dorms, and viewing the availability of all machines within a dormitory. The listed features are just a few features that were added to the prototype design of the app, all of which can be seen in Figure 1.
-                When the user initially opens the app, they will be presented with a login screen that will require their Carleton email which is then checked with the Carleton accounts to make sure that the user is a student. While the email was initially meant as a means of not needing to remember another username, I believe that it can also be used as a form of authentication to prevent third parties from viewing the user’s laundry habits. 
-                For selecting their default building, I offer the user the option to either type the name of the building, pick from a list of buildings, or select the building on the map as designated by a star. The subjects in my focus group mentioned how requiring the user to select from a list or to type the building name can prove difficult for freshmen who don’t know the names of the buildings yet. The reason why I use three different means of selecting a building is to allow users to go through with whichever method they are comfortable with. When a user selects a building through whatever means, not only with the star light up, but the name of the building will appear within the search bar, allowing the user to know if they picked the right building.
-                Something that was mentioned between both my focus group and Julian’s interview is the importance of seeing the availability of all machines within a dormitory and if a machine is broken. To handle both needs, I have color-coordinated the machines according to their availability, if they are blue or red then they are in use (blue for washing machines, whereas red is for drying machines), if they are gray then they are free, if they are orange then they are broken. Furthermore, the times on each machine signify when they will be next available and can allow the user to plan when they head down to the laundry room.
-                For the final feature of setting a dorm as the default, it was mentioned in Julian’s interview as a way of being able to immediately check the availability of your dorm without having to select it every time. The feature of setting of choosing your dorm is then part of the process when making your account, and can be changed when you view other buildings. By allowing the user to change their default building, it accounts for when they may need to move at the start of each school year.
-            </p>
-            <img src="assets/cs344 project/Prototype 1/New User.png" alt="Figure 1" class="img-fluid">
-            <img src="assets/cs344 project/Prototype 1/Reserve Machine.png" alt="Figure 2" class="img-fluid">
-            <img src="assets/cs344 project/Prototype 1/Normal Use.png" alt="Figure 3" class="img-fluid">
-
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col-md-6">
+                        <h3>Prototype 1</h3>
+                        <p>Through my focus group, along with Julian's interview, I learned about the various functions that our users (Carleton College students within the dormitories) would want from the app. Some examples of what the user wants would consist of using their Carleton email as a means of logging on, using maps as an easier way of selecting dorms, and viewing the availability of all machines within a dormitory. The listed features are just a few features that were added to the prototype design of the app, all of which can be seen in Figure 1.
+                            When the user initially opens the app, they will be presented with a login screen that will require their Carleton email which is then checked with the Carleton accounts to make sure that the user is a student. While the email was initially meant as a means of not needing to remember another username, I believe that it can also be used as a form of authentication to prevent third parties from viewing the user’s laundry habits. 
+                            For selecting their default building, I offer the user the option to either type the name of the building, pick from a list of buildings, or select the building on the map as designated by a star. The subjects in my focus group mentioned how requiring the user to select from a list or to type the building name can prove difficult for freshmen who don’t know the names of the buildings yet. The reason why I use three different means of selecting a building is to allow users to go through with whichever method they are comfortable with. When a user selects a building through whatever means, not only with the star light up, but the name of the building will appear within the search bar, allowing the user to know if they picked the right building.
+                            Something that was mentioned between both my focus group and Julian’s interview is the importance of seeing the availability of all machines within a dormitory and if a machine is broken. To handle both needs, I have color-coordinated the machines according to their availability, if they are blue or red then they are in use (blue for washing machines, whereas red is for drying machines), if they are gray then they are free, if they are orange then they are broken. Furthermore, the times on each machine signify when they will be next available and can allow the user to plan when they head down to the laundry room.
+                            For the final feature of setting a dorm as the default, it was mentioned in Julian’s interview as a way of being able to immediately check the availability of your dorm without having to select it every time. The feature of setting of choosing your dorm is then part of the process when making your account, and can be changed when you view other buildings. By allowing the user to change their default building, it accounts for when they may need to move at the start of each school year.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/cs344 project/Prototype 1/New User.png" alt="Figure 1" class="img-fluid">
+                        <img src="assets/cs344 project/Prototype 1/Reserve Machine.png" alt="Figure 2" class="img-fluid">
+                        <img src="assets/cs344 project/Prototype 1/Normal Use.png" alt="Figure 3" class="img-fluid">
+                    </div>
+                </div>
+            </div>
             <h3>Prototype 2</h3>
             
-            <p>When producing the second prototype, my team devised what we called the 3 final requirements, which consist of the most important parts that would be needed within the next prototypes. The 3 requirements are as followed along with their justification for being requirements, and how I addressed them in my prototype:</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>When producing the second prototype, my team devised what we called the 3 final requirements, which consist of the most important parts that would be needed within the next prototypes. The 3 requirements are as followed along with their justification for being requirements, and how I addressed them in my prototype:</p>
 
-            <ul>
-                <li>Users can see how much time is left on each machine in their dorm</li>
-                <ul>
-                    <li>Justification: This requirement is crucial to the entire purpose of our website because without it the users have no way of actually knowing whether a machine will be available at a certain time. They need to see how much time is left so that they can make plans for when they will do their own laundry without having to go down to the laundry room to check. Stakeholders found this crucial to our website being useful.</li>
-                    <li>How I address it: To help the user better understand which timers correspond to each machine in the laundry room, I have organized each timer to represent the locations of where the actual machines they represent would be located, upon entering the laundry room.</li>
-                </ul>
-                <li>Users can see when machines are out of order</li>
-                <ul>
-                    <li>Justification: This makes building schedules easier so that users have a backup plan if they see a broken machine. This also encourages more prompt maintenance, which ensures that users get the most up-to-date information when viewing the website. Seeing which machines are out of order can inform all of their subsequent actions when doing laundry, either that instant or when building long-term schedules.</li>
-                    <li>How I address it: Through my prototype, I have not only provided the users a means of reporting when a machine is broken but also changed the availability of that machine to be “Out of Order”. These features then inform users for when a machine is out of order and provides the user an easier means of reporting a broken machine.</li>
-                </ul>
-                <li>Users can select a dorm/building preference so it shows right away when they log into the laundry dashboard</li>
-                <ul>
-                    <li>Justification: By allowing the user to set a preference of which building to view, it allows the user to quickly gain relevant information regarding their personal dorm’s laundry machine availability, rather than having to search for their dorm first. Overall, this requirement will make the app easier to use.</li>
-                    <li>How I address it: To set a dorm preference, I have the user select a dorm when initially making their account so that in future uses of the app, it will immediately show the availability of the user’s dorm preference. </li>
-                </ul>
-            </ul>
+                        <ul>
+                            <li>Users can see how much time is left on each machine in their dorm</li>
+                            <ul>
+                                <li>Justification: This requirement is crucial to the entire purpose of our website because without it the users have no way of actually knowing whether a machine will be available at a certain time. They need to see how much time is left so that they can make plans for when they will do their own laundry without having to go down to the laundry room to check. Stakeholders found this crucial to our website being useful.</li>
+                                <li>How I address it: To help the user better understand which timers correspond to each machine in the laundry room, I have organized each timer to represent the locations of where the actual machines they represent would be located, upon entering the laundry room.</li>
+                            </ul>
+                            <li>Users can see when machines are out of order</li>
+                            <ul>
+                                <li>Justification: This makes building schedules easier so that users have a backup plan if they see a broken machine. This also encourages more prompt maintenance, which ensures that users get the most up-to-date information when viewing the website. Seeing which machines are out of order can inform all of their subsequent actions when doing laundry, either that instant or when building long-term schedules.</li>
+                                <li>How I address it: Through my prototype, I have not only provided the users a means of reporting when a machine is broken but also changed the availability of that machine to be “Out of Order”. These features then inform users for when a machine is out of order and provides the user an easier means of reporting a broken machine.</li>
+                            </ul>
+                            <li>Users can select a dorm/building preference so it shows right away when they log into the laundry dashboard</li>
+                            <ul>
+                                <li>Justification: By allowing the user to set a preference of which building to view, it allows the user to quickly gain relevant information regarding their personal dorm’s laundry machine availability, rather than having to search for their dorm first. Overall, this requirement will make the app easier to use.</li>
+                                <li>How I address it: To set a dorm preference, I have the user select a dorm when initially making their account so that in future uses of the app, it will immediately show the availability of the user’s dorm preference. </li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p>New Users</p>
+                        <video controls width="600">
+                            <source
+                                src="assets/cs344 project/Prototype 2/New User.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <a href="https://www.figma.com/proto/77zJ7h7XLWeCfBThfEkIzI/CS344_Figma_Prototype_2_(New_User)?node-id=2002-921&p=f&t=G71T9YJjzQ7H6tAB-1&scaling=min-zoom&content-scaling=fixed&page-id=2002%3A145&starting-point-node-id=2002%3A921">Link to demo</a>
 
-            <p>New Users</p>
-            <video controls width="600">
-                <source
-                    src="assets/cs344 project/Prototype 2/New User.mp4"
-                    type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <a href="https://www.figma.com/proto/77zJ7h7XLWeCfBThfEkIzI/CS344_Figma_Prototype_2_(New_User)?node-id=2002-921&p=f&t=G71T9YJjzQ7H6tAB-1&scaling=min-zoom&content-scaling=fixed&page-id=2002%3A145&starting-point-node-id=2002%3A921">Link to demo</a>
+                        <p>Normal Use</p>
+                        <video controls width="600">
+                            <source
+                                src="assets/cs344 project/Prototype 2/Normal Use.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <a href="https://www.figma.com/proto/KfqKo5afCVWoJmhGQgmifa/CS344_Figma_Prototype_2-(Normal-Use)?node-id=2001-147&p=f&t=2Ad8WwZthInm9AsF-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2001%3A147">Link to demo</a>
 
-            <p>Normal Use</p>
-            <video controls width="600">
-                <source
-                    src="assets/cs344 project/Prototype 2/Normal Use.mp4"
-                    type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <a href="https://www.figma.com/proto/KfqKo5afCVWoJmhGQgmifa/CS344_Figma_Prototype_2-(Normal-Use)?node-id=2001-147&p=f&t=2Ad8WwZthInm9AsF-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2001%3A147">Link to demo</a>
-
-            <p>Reserving Machine</p>
-            <video controls width="600">
-                <source
-                    src="assets/cs344 project/Prototype 2/Reserve Machine.mp4"
-                    type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <a href="https://www.figma.com/proto/uNily1YuERX65LJtTRDNsS/CS344_Figma_Prototype_2-(Reserving)?node-id=2002-370&p=f&t=IHcPLa4GqTz0L5Jd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2002%3A370">Link to demo</a>
+                        <p>Reserving Machine</p>
+                        <video controls width="600">
+                            <source
+                                src="assets/cs344 project/Prototype 2/Reserve Machine.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <a href="https://www.figma.com/proto/uNily1YuERX65LJtTRDNsS/CS344_Figma_Prototype_2-(Reserving)?node-id=2002-370&p=f&t=IHcPLa4GqTz0L5Jd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2002%3A370">Link to demo</a>
+                    </div>
+                </div>
+            </div>
 
 
             <p>To form the 3 final requirements, my team and I underwent a UX research process which included interviewing other students, coding the interview transcripts, and forming a consensus. For the interviews, each of my teammates as well as myself ran interviews with our classmates to better understand their perspectives on the laundry situation and what they would like from our app. Some of these interviews were run as typical one-on-one interviews, or we would make use of focus groups and interview multiple people at once.</p>
@@ -111,12 +124,73 @@
                 <li>For the Reserving interaction flow, the user will need to scan a QR code that would be seen on the door of the laundry machine that they are reserving. The user would then need to log onto their app, which brings them to a new screen for setting the timer for their machine. Within the new screen, the user would be able to choose the washing setting they are using for the actual machine, a button to start the timer, and a setting for adding 5 minutes to the timer. The washing setting would reflect the timer on the machine they are using and the additional 5 minutes is a way to ensure that the user has a little bit more time to move their laundry. After the timer starts, the user can then see two links, one that allows the user to report the machine if it is broken, and the other allows the user to view the availability of the building. After reporting their machine, the user gets redirected to a service request form for Carleton, for which they can easily report the machine to custodial staff. Returning to the availability of the building would allow the user to now see a star on the machine they had reserved. When the user clicks on the machine with the star, the user gets sent to the screen displaying the timer of the machine, as well as the link to report it when broken.</li>
             </ul>
 
+            <h3>Prototype 3</h3>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>For the final prototype, I treated the three requirements my teammates and I agreed on as tasks for when I next interviewed someone over my prototypes. For the new interview, I made use of a Think Aloud process, where the subject would vocalize their thoughts while interacting with my prototypes. During the process, I not only recorded the subjects voice and screen, with their permission, but I also kept track of the amount of time and mistakes it took to accomplish it, and whether or not they were able to complete the task without my help.</p>
+
+                        <h4>UX Evaluation results</h4>
+                        <p>New User</p>
+                        <p>For finding the availability of the laundry machines, it took the user 2 minutes and 10 seconds after the user made 2 mistakes and they succeeded at the task.
+                            Then for selecting the dorm preference, it took the user 1 minute and 56 seconds after the user made 15 mistakes, but they failed at the task without my help.
+                        </p>
+                        <p>When I pointed out the enter button, which was an arrow to the left of the search bar, pointing left, they said "I thought that would be the back button for some reason"</p>
+
+
+                        <p>Normal Use</p>
+                        <p>For finding the availability of the laundry machines, it took the user 16 seconds with no mistakes and they succeeded at the task.
+                            Then for selecting the dorm preference, it took the user 31 seconds after the user made 1 mistake and they succeeded at the task.
+                        </p>
+
+                        <p>Reserving Machine</p>
+                        <p>For finding the availability of the laundry machines, it took the user 56 seconds after the user made 2 mistakes and they succeeded at the task, which is the same results for reserving a machine.
+                        </p>
+                        <p>After going through the tasks, they said "I wonder if you could favorite certain washer machines?"</p>
+
+                        <p>Due to the amount of time and mistakes spent initially making the account, and the fact that the user initially believed that the enter button was the back button, I had adjusted the placement of the enter button as well as flipped it to point right instead of left.
+                            To make the buttons more obvious, I made all buttons uniformed by giving them a dark outline, and turned the links into buttons as well, so as to stop users from tapping on non-interactive objects such as unreserved machines. 
+                            I then made sure to label each machine with a name and a number as per the request of the person I did the Think Aloud with. However, once the user reserves a machine, not only will a star appear like normal, but a button will appear underneath the reserved machine in place of their label. 
+                            I also added a notification bell when viewing the availability of a building to allow users to opt-out of being notified when their laundry is done, as per my classmates suggestion. 
+                            As a part of this notification bell, I also designed how the app would look when changing the settings for both notifications or the language to where the rest of the screen will dim down until the settings is closed.
+                            Finally, as a part of reserving a machine, I also made use of the subjects request in allowing the user to favorite the machine, which doesn't do much aside from acting as a form of rating system for the backenda and giving the machine a little crown when viewing avaiability. Only one machine may have a crown in every building for each user.</p> 
+                    </div>
+                    <div class="col-md-6"> 
+                        <p>New Users</p>
+                        <video controls width="600">
+                            <source
+                                src="assets/cs344 project/Prototype 3/newUser.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <a href="https://www.figma.com/proto/ZU1z7UW1MIMGQGEUsq2oF5/CS344_Figma_Prototype_2_(New_User)-Final?node-id=2002-921&p=f&t=kr9xmZClk0olQd2C-1&scaling=scale-down&content-scaling=fixed&page-id=2002%3A145&starting-point-node-id=2002%3A921">Link to demo</a>
+
+                        <p>Normal Use</p>
+                        <video controls width="600">
+                            <source
+                                src="assets/cs344 project/Prototype 3/normalUse.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <a href="https://www.figma.com/proto/SH1HGSkDG5XOfcDbCmKziy/CS344_Figma_Prototype_2-(Normal-Use)-Final?node-id=4004-282&p=f&t=l7koW5tqiERxX2ib-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4004%3A282">Link to demo</a>
+
+                        <p>Reserving Machine</p>
+                        <video controls width="600">
+                            <source
+                                src="assets/cs344 project/Prototype 3/reserving.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <a href="https://www.figma.com/proto/oV4Q8Hw6fS0BAa9ZYNHlYj/CS344_Figma_Prototype_2-(Reserving)-Final?t=SJ3oiUpP1hGUQsN8-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=2002-370&starting-point-node-id=2002%3A370">Link to demo</a>
+                    </div>
+                </div>
+            </div>
             
+            <p>As for future features that I was unable to implement within my third prototype would be to allow for reservations on a few of the machines in each building, add functionality to the magnifying glass, as establish an error screen for when the user does not enter their username and password, and an eye icon that allows the user to see what they are typing as their password.</p>
+
             <!-- Copyright-->
             <footer> &copy; Leo Moran</footer>
         </div>
     </body>
-    
-
-
 </html>
