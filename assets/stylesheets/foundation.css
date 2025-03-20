@@ -41,7 +41,7 @@ a {
 }
 
 .img-fluid {
-    box-shadow: 10px 10px 5px #838383af;
+    box-shadow: 1.1vw 1.1vw 1vw #838383af;
 }
 
 .logo {
@@ -94,7 +94,7 @@ p {
     padding-left: 2%;
     padding-right: 2%;
     background-color: #edededaf;
-    box-shadow: 10px 10px 5px #838383af;
+    box-shadow: 1.1vw 1.1vw 1vw #838383af;
 }
 
 ul {
