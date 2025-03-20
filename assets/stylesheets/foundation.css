@@ -1,7 +1,7 @@
 /*How to make a comment*/
 
 .topNav {
-    list-style-type: none;
+    /* list-style-type: none; */
     padding-left: 0.5%;
 }
 
@@ -40,6 +40,10 @@ a {
     font-size: 2vw;
 }
 
+.img-fluid {
+    box-shadow: 10px 10px 5px #838383af;
+}
+
 .logo {
     max-width: 5%;
     max-height: 5%;
@@ -58,21 +62,26 @@ body {
 
 .bodyHome {
     border: solid #d085ee;
-}
+    background-color: #d085ee;
+}  
 .bodyAbout_me {
     border: solid #85eaee;
+    background-color: #85eaee;
 }
 .bodyContact {
     border: solid #85b4ee; 
+    background-color: #85b4ee;
 }
 .bodyWork {
     border: solid #eea385;
+    background-color: #eea385;
 }
 .bodyProjects {
     border: solid #eed485;
+    background-color: #eed485;
 }
 
-.bodyHome, .bodyAbout_me, .bodyContact, .bodyContact, .bodyProjects {
+.bodyHome, .bodyAbout_me, .bodyContact, .bodyWork, .bodyProjects {
     border-radius: 15px;
     font-size: 100%;
 }
@@ -80,8 +89,12 @@ body {
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 2vw;
+    align-self: center;
+    max-width: 40vw;
     padding-left: 2%;
     padding-right: 2%;
+    background-color: #edededaf;
+    box-shadow: 10px 10px 5px #838383af;
 }
 
 ul {
@@ -91,5 +104,6 @@ ul {
 footer {
     font-size: 1.5vw;
     padding-left: 0.5%;
+    
 }
 
