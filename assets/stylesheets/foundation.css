@@ -58,6 +58,7 @@ a {
 
 body {
     padding: 2%;
+    align-self: center;
 }
 
 .bodyHome {
@@ -89,7 +90,6 @@ body {
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 2vw;
-    align-self: center;
     max-width: 40vw;
     padding-left: 2%;
     padding-right: 2%;
