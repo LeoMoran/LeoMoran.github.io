@@ -25,6 +25,26 @@
     background-color: #eed485;
 }
 
+.textSheetMedium {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #edededaf;
+    box-shadow: 1.1vw 1.1vw 1vw #838383af;
+}
+
+.textSheetLarge {
+    max-width: 70vw;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #edededaf;
+    box-shadow: 1.1vw 1.1vw 1vw #838383af;
+    align-self: center;
+}
+
 h1 {
     font-size: 5vw;
 }
@@ -40,7 +60,7 @@ a {
     font-size: 2vw;
 }
 
-.img-fluid {
+.img-fluid, video {
     box-shadow: 1.1vw 1.1vw 1vw #838383af;
 }
 
@@ -87,7 +107,7 @@ body {
     font-size: 100%;
 }
 
-p {
+/* p {
     font-family: "Times New Roman", Times, serif;
     font-size: 2vw;
     max-width: 40vw;
@@ -95,7 +115,7 @@ p {
     padding-right: 2%;
     background-color: #edededaf;
     box-shadow: 1.1vw 1.1vw 1vw #838383af;
-}
+} */
 
 ul {
     font-size: 2vw;
