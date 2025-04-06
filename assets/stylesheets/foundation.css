@@ -77,8 +77,9 @@ a {
 }
 
 body {
-    padding: 2%;
+    padding: 1%;
     align-self: center;
+    background-color: #cdaf81;
 }
 
 .bodyHome {
