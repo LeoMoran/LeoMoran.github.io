@@ -1,12 +1,14 @@
 /*How to make a comment*/
 
 .topNav {
-    /* list-style-type: none; */
     padding-left: 0.5%;
 }
 
 .topNav a{
     text-decoration: none;
+    margin-right: 30px;
+    margin-left: -4px;
+    font-size: 3vw;
 }
 
 .topNav a.home {
@@ -106,17 +108,9 @@ body {
 .bodyHome, .bodyAbout_me, .bodyContact, .bodyWork, .bodyProjects {
     border-radius: 15px;
     font-size: 100%;
+    border-top-left-radius: 0px;
 }
 
-/* p {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2vw;
-    max-width: 40vw;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: #edededaf;
-    box-shadow: 1.1vw 1.1vw 1vw #838383af;
-} */
 
 ul {
     font-size: 2vw;
@@ -127,4 +121,23 @@ footer {
     padding-left: 0.5%;
     
 }
+/* These containers can be used in place of bootstrap*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: green; /* Only used to display spacing*/
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+}
 
+/* Here is how you use them in html
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div> */
