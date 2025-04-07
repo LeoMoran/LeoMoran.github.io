@@ -7,8 +7,9 @@
 .topNav a{
     text-decoration: none;
     margin-right: 30px;
-    margin-left: -4px;
+    margin-left: -.5%;
     font-size: 3vw;
+    color: rgba(255, 255, 255, 0.797)
 }
 
 .topNav a.home {
@@ -101,7 +102,7 @@ body {
     background-color: #eea385;
 }
 .bodyProjects {
-    border: solid #eed485;
+    /* border: solid #eed485; */
     background-color: #eed485;
 }
 
