@@ -13,10 +13,10 @@
 }
 
 .topNav a.home {
-    background-color: #d085ee;
+    background-color: #a6ea9b;
 }
 .topNav a.about_me {
-    background-color: #85eaee;
+    background-color: #98e3e3;
 }
 .topNav a.contact {
     background-color: #85b4ee; 
@@ -86,12 +86,12 @@ body {
 }
 
 .bodyHome {
-    border: solid #d085ee;
-    background-color: #d085ee;
+    border: solid #a6ea9b;
+    background-color: #a6ea9b;
 }  
 .bodyAbout_me {
-    border: solid #85eaee;
-    background-color: #85eaee;
+    border: solid #98e3e3;
+    background-color: #98e3e3;
 }
 .bodyContact {
     border: solid #85b4ee; 
@@ -102,7 +102,7 @@ body {
     background-color: #eea385;
 }
 .bodyProjects {
-    /* border: solid #eed485; */
+    border: solid #eed485;
     background-color: #eed485;
 }
 
