@@ -1,19 +1,28 @@
 This file is a check list for changes needed to be implemented onto my website.
 
-- Make it so that my headshot doesn't grow to be so massive on the index page
-
 - Make error messages
 
 - Continue to add documentation for the files
 
-- Make the navigation bar look nicer
-
-- Make the links on the contacts page function
-
 - Add a "back to the top" link once the navigation bar is out of view
-
-- Move contacts to the bottom of Home page
 
 - Change Resume link so there are two options, one to view the document, and another to download it
 
 - Change the color of the links to look nicer
+
+- Make a mini resume visable
+
+- Expand the tabs of each navbar link
+
+- attatch navbar to top of body
+
+- Set prototype 2 videos to be aligned
+
+- Set folders for projects
+    - Make folders expand with project information
+    - Form a cycling gallary of pictures and videos
+
+- Shorten About Me paragraph // OR // reformat About Me to appear like a blog
+
+- Make the papers have lines to look like lined papers
+
