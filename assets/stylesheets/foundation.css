@@ -102,6 +102,11 @@ body {
     background-color: #eed485;
 }
 
+.bodyProduct {
+    border: solid #D29EF5;
+    background-color: #D29EF5;
+}
+
 .bodyHome, .bodyAbout_me, .bodyContact, .bodyWork, .bodyProjects {
     border-radius: 15px;
     font-size: 100%;
