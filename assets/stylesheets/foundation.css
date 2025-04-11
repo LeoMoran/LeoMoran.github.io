@@ -1,10 +1,11 @@
 /*How to make a comment*/
 
+
 .topNav a{
     text-decoration: none;
     margin-right: 3vw;
     font-size: 3vw;
-    color: black;
+    color: rgba(0, 0, 0, 0.776);
 }
 
 .topNav a.home {
@@ -115,8 +116,12 @@ ul {
 footer {
     font-size: 1.5vw;
     padding-left: 0.5%;
-    
 }
+
+footer a {
+    color: rgba(0, 0, 0, 0.776);
+}
+
 /* These containers can be used in place of bootstrap*/
 .flex-container {
     display: flex;
