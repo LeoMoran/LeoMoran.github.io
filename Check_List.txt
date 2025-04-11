@@ -26,3 +26,12 @@ This file is a check list for changes needed to be implemented onto my website.
 
 - Make the papers have lines to look like lined papers
 
+- Use scaling to your advantage
+
+- Add name to each webpage
+
+- Set each project as another webpage?
+
+- On the project page, show final result image/video and a summary of the project, then have a "Show More" folder that opens up to all the info behind the project
+
+- 

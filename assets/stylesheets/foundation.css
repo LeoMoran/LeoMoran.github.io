@@ -1,15 +1,10 @@
 /*How to make a comment*/
 
-.topNav {
-    padding-left: 0.5%;
-}
-
 .topNav a{
     text-decoration: none;
-    margin-right: 30px;
-    margin-left: -.5%;
+    margin-right: 3vw;
     font-size: 3vw;
-    color: rgba(255, 255, 255, 0.797)
+    color: black;
 }
 
 .topNav a.home {
