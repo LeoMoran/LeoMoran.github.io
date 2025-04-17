@@ -36,4 +36,8 @@ This file is a check list for changes needed to be implemented onto my website.
 
 - Fix alignments of footer links on index and About Me pages
 
-- 
+- MAKE WEBPAGES LOOK LIKE FOLDER ICON THAT I MADE!!!!!!!!!! IT WOULD LOOK SO GOOD AND ALLOW FOR THE NAV BAR AND MY NAME TO FOLLOW WITHOUT IT LOOKING WEIRD!!!!!!!!
+
+- Move link text for project folder to overlap the folder icon
+
+- Figure out Scaling for videos
