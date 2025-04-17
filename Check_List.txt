@@ -39,3 +39,5 @@ This file is a check list for changes needed to be implemented onto my website.
 - Move link text for project folder to overlap the folder icon
 
 - Figure out Scaling for videos
+
+- Figure out why links get pushed to the column on left when placed on the right column with space
