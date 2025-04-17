@@ -6,8 +6,6 @@ This file is a check list for changes needed to be implemented onto my website.
 
 - Add a "back to the top" link once the navigation bar is out of view
 
-- Change Resume link so there are two options, one to view the document, and another to download it
-
 - Change the color of the links to look nicer
 
 - Make a mini resume visable
