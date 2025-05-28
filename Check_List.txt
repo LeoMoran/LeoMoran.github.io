@@ -8,13 +8,9 @@ This file is a check list for changes needed to be implemented onto my website.
 
 - Change the color of the links to look nicer
 
-- Make a mini resume visable
-
 - Expand the tabs of each navbar link
 
 - attatch navbar to top of body
-
-- Set prototype 2 videos to be aligned
 
 - Set folders for projects
     - Make folders expand with project information
@@ -26,11 +22,7 @@ This file is a check list for changes needed to be implemented onto my website.
 
 - Use scaling to your advantage
 
-- Add name to each webpage
-
 - Set each project as another webpage?
-
-- On the project page, show final result image/video and a summary of the project, then have a "Show More" folder that opens up to all the info behind the project
 
 - Fix alignments of footer links on index and About Me pages
 
@@ -39,5 +31,3 @@ This file is a check list for changes needed to be implemented onto my website.
 - Move link text for project folder to overlap the folder icon
 
 - Figure out Scaling for videos
-
-- Figure out why links get pushed to the column on left when placed on the right column with space
