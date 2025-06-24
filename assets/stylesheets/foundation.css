@@ -11,9 +11,6 @@
 .topNav a.home {
     background-color: #a6ea9b;
 }
-.topNav a.about_me {
-    background-color: #98e3e3;
-}
 .topNav a.contact {
     background-color: #85b4ee; 
 }
@@ -93,10 +90,6 @@ body {
     border: solid #a6ea9b;
     background-color: #a6ea9b;
 }  
-.bodyAbout_me {
-    border: solid #98e3e3;
-    background-color: #98e3e3;
-}
 .bodyContact {
     border: solid #85b4ee; 
     background-color: #85b4ee;
@@ -115,7 +108,7 @@ body {
     background-color: #D29EF5;
 }
 
-.bodyHome, .bodyAbout_me, .bodyContact, .bodyWork, .bodyProjects {
+.bodyHome, .bodyContact, .bodyWork, .bodyProjects {
     border-radius: 15px;
     font-size: 100%;
     border-top-left-radius: 0px;
