@@ -1,7 +1,5 @@
 This file is a check list for changes needed to be implemented onto my website.
 
-- Make error messages
-
 - Continue to add documentation for the files
 
 - Add a "back to the top" link once the navigation bar is out of view
@@ -10,7 +8,7 @@ This file is a check list for changes needed to be implemented onto my website.
 
 - Expand the tabs of each navbar link
 
-- attatch navbar to top of body
+- attach navbar to top of body
 
 - Set folders for projects
     - Make folders expand with project information
@@ -22,12 +20,8 @@ This file is a check list for changes needed to be implemented onto my website.
 
 - Use scaling to your advantage
 
-- Set each project as another webpage?
-
 - Fix alignments of footer links on index and About Me pages
 
 - MAKE WEBPAGES LOOK LIKE FOLDER ICON THAT I MADE!!!!!!!!!! IT WOULD LOOK SO GOOD AND ALLOW FOR THE NAV BAR AND MY NAME TO FOLLOW WITHOUT IT LOOKING WEIRD!!!!!!!!
-
-- Move link text for project folder to overlap the folder icon
 
 - Figure out Scaling for videos

@@ -128,14 +128,34 @@ footer a {
     color: rgba(0, 0, 0, 0.776);
 }
 
+.folder {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.folder a {
+    color: rgba(0, 0, 0, 0.776);
+    font-weight: bold;
+    font-size: 2vw;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
 /* These containers can be used in place of bootstrap*/
 .flex-container {
     display: flex;
     justify-content: space-between;
-    background-color: green; /* Only used to display spacing*/
+    /* Only used to display spacing*/
+    /* background-color: green;  */
 }
 .flex-container > div {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     width: 100px;
     margin: 10px;
     line-height: 75px;
