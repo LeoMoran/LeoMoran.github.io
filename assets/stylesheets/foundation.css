@@ -1,24 +1,24 @@
 /*How to make a comment*/
 
+.topNav {
+    margin-bottom: -.35%;
+    padding-bottom: 0%;
+    
+}
 
 .topNav a{
     text-decoration: none;
     margin-right: 3vw;
     font-size: 3vw;
     color: rgba(0, 0, 0, 0.776);
+    border-top-right-radius: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #96d68c;
 }
 
-.topNav a.home {
+.topNav a.active {
     background-color: #a6ea9b;
-}
-.topNav a.contact {
-    background-color: #85b4ee; 
-}
-.topNav a.work {
-    background-color: #eea385;
-}
-.topNav a.projects {
-    background-color: #eed485;
 }
 
 .textSheetMedium {
@@ -83,37 +83,16 @@ a {
 body {
     padding: 1%;
     align-self: center;
-    background-color: #cdaf81;
+    background-color: #fff3af;
 }
 
-.bodyHome {
+.mainBody {
     border: solid #a6ea9b;
     background-color: #a6ea9b;
-}  
-.bodyContact {
-    border: solid #85b4ee; 
-    background-color: #85b4ee;
-}
-.bodyWork {
-    border: solid #eea385;
-    background-color: #eea385;
-}
-.bodyProjects {
-    border: solid #eed485;
-    background-color: #eed485;
-}
-
-.bodyProduct {
-    border: solid #D29EF5;
-    background-color: #D29EF5;
-}
-
-.bodyHome, .bodyContact, .bodyWork, .bodyProjects {
     border-radius: 15px;
     font-size: 100%;
     border-top-left-radius: 0px;
-}
-
+}  
 
 ul {
     font-size: 2vw;
@@ -145,7 +124,6 @@ footer a {
     transform: translate(-50%, -50%);
     
 }
-
 
 /* These containers can be used in place of bootstrap*/
 .flex-container {
