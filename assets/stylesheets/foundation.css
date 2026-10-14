@@ -1,5 +1,41 @@
 /*How to make a comment*/
 
+/* Base Elements */
+h1 {
+    font-size: 5vw;
+}
+h2 {
+    font-size: 4vw;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+a {
+    font-size: 1.8vw;
+}
+
+body {
+    padding: 1%;
+    align-self: center;
+    background-color: #fff3af;
+}
+
+ul {
+    font-size: 2vw;
+}
+
+footer {
+    font-size: 1.5vw;
+    padding-left: 0.5%;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.776);
+}
+
+/* Classes */
 .topNav {
     margin-bottom: -.35%;
     padding-bottom: 0%;
@@ -41,21 +77,6 @@
     align-self: center;
 }
 
-h1 {
-    font-size: 5vw;
-}
-h2 {
-    font-size: 4vw;
-}
-
-h1, h2, h3, h4 {
-    text-align: center;
-}
-
-a {
-    font-size: 1.8vw;
-}
-
 .img-fluid, video {
     box-shadow: 1.1vw 1.1vw 1vw #838383af;
 }
@@ -80,12 +101,6 @@ a {
     box-sizing: content-box;
 }
 
-body {
-    padding: 1%;
-    align-self: center;
-    background-color: #fff3af;
-}
-
 .mainBody {
     border: solid #a6ea9b;
     background-color: #a6ea9b;
@@ -97,19 +112,6 @@ body {
 
 .main_content {
     display: none;
-}
-
-ul {
-    font-size: 2vw;
-}
-
-footer {
-    font-size: 1.5vw;
-    padding-left: 0.5%;
-}
-
-footer a {
-    color: rgba(0, 0, 0, 0.776);
 }
 
 .folder {
